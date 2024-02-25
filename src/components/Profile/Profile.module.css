@@ -1,0 +1,50 @@
+.container {
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    background-color: rgb(243, 243, 242);
+    margin-bottom: 40px;
+}
+.image{
+    width: 200px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.name{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+.text{
+    font-size: 32px;
+    font-weight: 500;
+    color: darkgray;
+    padding-bottom: 15px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.item{
+    height: 200px;
+    width: 100%;
+    border: 2px solid gray;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 214, 214);
+}
+.itemText{
+    font-size: 35px;
+    font-weight: 450;
+}
+.itemData{
+    font-size: 30px;
+    font-weight: 700;
+}

@@ -1,29 +1,29 @@
-
+import css from "./Profile.module.css"
 export const Profile = ({name,tag,location,image,stats}) => {
     return (
+    <div className={css.container}>
     <div>
-    <div>
-    <img
+    <img className={css.image}
         src={image}
         alt="User avatar"
     />
-    <p>{name}</p>
-    <p>@p{tag}</p>
-    <p>{location}</p>
+    <p className={css.name}>{name}</p>
+    <p className={css.text}>@p{tag}</p>
+    <p className={css.text}>{location}</p>
     </div>
 
-    <ul>
-    <li>
-        <span>Followers</span>
-        <span>{stats.followers}</span>
+    <ul className={css.list}>
+    <li className={css.item}>
+        <span className={css.itemText}>Followers</span>
+        <span className={css.itemData}>{stats.followers}</span>
     </li>
-    <li>
-        <span>Views</span>
-        <span>{stats.views}</span>
+    <li className={css.item}>
+        <span className={css.itemText}>Views</span>
+        <span className={css.itemData}>{stats.views}</span>
     </li>
-    <li>
-        <span>Likes</span>
-        <span>{stats.likes}</span>
+    <li className={css.item}>
+        <span className={css.itemText}>Likes</span>
+        <span className={css.itemData}>{stats.likes}</span>
     </li>
     </ul>
 </div>

@@ -1,0 +1,20 @@
+.table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 600px;
+    
+}
+.thead{
+    
+    
+    background-color: rgb(61, 60, 60);
+}
+.theadText{
+    color: white;
+}
+.tbody{
+    border: 2px solid black;
+}
+.tbodyColor:nth-child(even){
+   background-color: rgb(214, 208, 208);
+}
