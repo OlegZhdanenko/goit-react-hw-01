@@ -1,15 +1,10 @@
 .online{
     color: greenyellow;
 }
-.offlineOff{
-    display: none;
-}
 .offline{
     color:  red;
 }
-.onlineOff{
-    display: none;
-}
+
 .name{
     font-weight: 600;
     font-size: 20px;
